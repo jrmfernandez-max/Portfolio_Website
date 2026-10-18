@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of John Russel M. Fernandez, BSIT student at PCU-D">
+    <title>John Russel Fernandez | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="nav">
+        <a href="#home" class="logo">JRF<span>.</span></a>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact" class="nav-cta">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-text">
+                <p class="eyebrow">Hello, I'm</p>
+                <h1>John Russel <span class="accent">M. Fernandez</span></h1>
+                <p class="lead">BSIT student at PCU-D who enjoys turning ideas into clean, usable interfaces.</p>
+                <div class="actions">
+                    <a href="#contact" class="btn btn-primary">Contact Me</a>
+                    <a href="#skills" class="btn btn-ghost">See my skills</a>
+                </div>
+            </div>
+            <div class="hero-photo">
+                <div class="photo-frame">
+                    <img src="Profile.jpg" alt="Portrait of John Russel Fernandez">
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <h2 class="section-title"><span>01</span> About Me</h2>
+            <p class="about-text">Hi! I'm Russel, a BSIT student from PCU-D. I like working across design and code, from sketching layouts in Figma to building them with HTML, CSS and JavaScript.</p>
+        </section>
+
+        <section class="section" id="projects">
+            <h2 class="section-title"><span>02</span> My Projects</h2>
+            <div class="carousel" id="carousel" aria-roledescription="carousel" aria-label="Projects">
+                <div class="carousel-track" id="carouselTrack" tabindex="0"></div>
+                <button class="carousel-btn prev" id="prevBtn" aria-label="Previous project">&#8249;</button>
+                <button class="carousel-btn next" id="nextBtn" aria-label="Next project">&#8250;</button>
+            </div>
+            <div class="carousel-footer">
+                <div class="carousel-dots" id="carouselDots"></div>
+                <span class="carousel-count" id="carouselCount"></span>
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <h2 class="section-title"><span>03</span> My Skills</h2>
+            <ul class="skills">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Figma</li>
+                <li>C#</li>
+                <li>Cisco</li>
+            </ul>
+        </section>
+
+        <section class="section contact" id="contact">
+            <h2 class="section-title"><span>04</span> Let's Connect</h2>
+            <p class="about-text">Want to work together or just say hi? Reach out through any of these.</p>
+            <div class="actions">
+                <a href="mailto:jrmf100905@gmail.com" class="btn btn-primary">Email Me</a>
+                <a href="https://www.facebook.com/johnrussel.fernandez.100905" target="_blank" rel="noopener" class="btn btn-ghost">Facebook</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 John Russel M. Fernandez</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
